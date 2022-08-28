@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/smokeywhite"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".Fragments.LeadsFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutfirst"
+        android:backgroundTint="@color/grey1">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/grey1">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            app:strokeWidth="0.5dp"
+            app:strokeColor="@color/black"
+            android:layout_marginRight="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/locations"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center"
+                    android:dropDownVerticalOffset="84dp"
+                    android:paddingRight="5dp">
+
+
+                </Spinner>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:alpha="0.5"
+                    android:background="@color/black">
+
+                </View>
+
+                <Spinner
+                    android:id="@+id/category"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:dropDownVerticalOffset="84dp"
+                    android:paddingRight="5dp">
+
+
+                </Spinner>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:alpha="0.5"
+                    android:background="@color/black">
+
+                </View>
+
+                <androidx.appcompat.widget.SearchView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/searchview"
+                    android:layout_marginRight="2dp"
+                    app:defaultQueryHint="Search here"
+                    app:iconifiedByDefault="false"
+                    app:queryHint="Search here"
+                    android:background="@color/white">
+
+                </androidx.appcompat.widget.SearchView>
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv1"
+        android:divider="#ad5"
+        android:visibility="gone"
+        android:dividerHeight="2dp"
+        android:layout_below="@+id/layoutfirst"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lv1"
+            android:orientation="vertical">
+
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tabLayout"
+                android:minHeight="?attr/actionBarSize"
+                app:tabTextColor="@color/black"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            </com.google.android.material.tabs.TabLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewPager"
+                android:scrollbars="horizontal">
+
+            </androidx.viewpager.widget.ViewPager>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

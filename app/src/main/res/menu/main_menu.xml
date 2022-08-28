@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mihome"
+        android:title="Home"
+        android:icon="@drawable/ic_outline_home" />
+
+    <item android:id="@+id/leads"
+        android:title="Buy Leads"
+        android:icon="@drawable/ic_outline_buy" />
+
+    <item android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item android:id="@+id/post_requirments"
+        android:title="Post Requirment"
+        android:icon="@drawable/ic_baseline_post" />
+    <item android:id="@+id/history"
+        android:title="Purchased Lead"
+        android:icon="@drawable/ic_baseline_history" />
+
+</menu>

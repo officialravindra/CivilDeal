@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "135700209596",
+    "project_id": "civildeal-a5511",
+    "storage_bucket": "civildeal-a5511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135700209596:android:1f04cae7de199164f295b9",
+        "android_client_info": {
+          "package_name": "com.civildeal.civildeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135700209596-8mkaboa6cohq762con5h4n3kkcmgdmni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.civildeal.civildeal",
+            "certificate_hash": "3262c756a53680440549f83147ecff11581c7dfb"
+          }
+        },
+        {
+          "client_id": "135700209596-4ekjqpdgk8bm7f5hk7l5ali4tej549en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYm6lMJWvEBkfIWA056R86-pCluiY5qU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135700209596-4ekjqpdgk8bm7f5hk7l5ali4tej549en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

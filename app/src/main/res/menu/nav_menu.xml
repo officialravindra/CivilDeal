@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" />
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_outline_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/buyleads"
+        android:icon="@drawable/ic_outline_buy"
+        android:title="Buy Leads" />
+
+    <item
+        android:id="@+id/transHistrory"
+        android:icon="@drawable/ic_baseline_payment"
+        android:title="Transaction History" />
+
+    <item
+        android:id="@+id/inbox"
+        android:icon="@drawable/ic_baseline_payment"
+        android:title="Direct Lead" />
+
+    <item
+        android:id="@+id/mycart"
+        android:icon="@drawable/ic_baseline_shopping_cart"
+        android:title="Cart" />
+
+    <item
+        android:id="@+id/project_post"
+        android:icon="@drawable/ic_project_post"
+        android:title="Project Post"
+        />
+
+    <item
+        android:id="@+id/switchPromoter"
+        android:icon="@drawable/ic_switch"
+        android:title="Switch Promoter"
+        />
+
+    <item
+        android:id="@+id/addLead"
+        android:icon="@drawable/ic_add_lead"
+        android:title="Add Lead"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/addedLead"
+        android:icon="@drawable/ic_baseline_note_add_24"
+        android:title="Added Lead"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/check_bid"
+        android:icon="@drawable/ic_bid_submission"
+        android:title="Check Bid"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/bid_submission"
+        android:icon="@drawable/ic_bid_submission"
+        android:title="Bid Submission"
+        android:visible="false"/>
+
+
+    <item
+        android:id="@+id/freelisting"
+        android:icon="@drawable/ic_outline_free_listing"
+        android:title="Free Listing" />
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_outline_feedback"
+        android:title="Feedback"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_baseline_notifications"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/helpandsupport"
+        android:icon="@drawable/ic_baseline_help"
+        android:title="Help and Support" />
+
+    <item
+        android:id="@+id/contactUs"
+        android:icon="@drawable/ic_baseline_contactus"
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_baseline_share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_logout"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_outline_more_24"
+        android:title="About CivilDeal" />
+
+</menu>

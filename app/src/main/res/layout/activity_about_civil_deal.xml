@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/smokeywhite"
+    tools:context=".Activity.AboutCivilDeal">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey1"
+        android:elevation="5dp">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:theme="@style/ToolbarColoredBackArrow"
+            app:titleTextColor="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="About CivilDeal"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/construction_logo_design"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About us"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif"
+            android:text="CIVILDEAL GROUP is serving to our nation from last years in various sector like construction real estate and infrastructure. At the time when whole world is running out of suppliers we are entering as manpower and skilled service provider. After our huge success in Jaipur our aim is to develop employment and serve the customers with qualified and skilled vendors with the modern technology. Civildeal provides you work at a minimum annual plan which assure you to provide guaranteed work where our team brings you new opportunities."
+            android:textAlignment="inherit" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WHY CIVILDEAL"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/red"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Civildeal team find out the basic construction need of a customers and sublet it our its vendors according to their work type."
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_check"
+            android:drawablePadding="5dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We have a dedicated marketing team that collects all customers data and their work type and timely report it to our vendor team"
+            android:drawableLeft="@drawable/ic_check"
+            android:drawablePadding="5dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We give you number of venders for particular work types so that customer can make a choice on his own."
+            android:drawableLeft="@drawable/ic_check"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vendors and customers will get Direct Access to each other with full transparency."
+            android:drawableLeft="@drawable/ic_check"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

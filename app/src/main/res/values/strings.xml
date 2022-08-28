@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">CivilDeal</string>
+
+    <string-array name="cityNames">
+
+        <item>SelectCity</item>
+        <item>Jaipur</item>
+        <item>Kota</item>
+        <item>Jodhpur</item>
+        <item>Udaipur</item>
+        <item>Sawai madhopur</item>
+    </string-array>
+
+    <string-array name="selectType">
+        <!--
+        <item>SelectType</item>-->
+        <item>service</item>
+        <item>maintenance</item>
+        <item>product</item>
+    </string-array>
+
+    <string-array name="selectLeadType">
+        <item>select type</item>
+        <item>service</item>
+        <item>maintenance</item>
+        <item>product</item>
+    </string-array>
+
+    <string-array name="selectgender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <string-array name="selectSize">
+        <!--
+        <item>SelectType</item>-->
+        <item>Select Size</item>
+        <item>square feet</item>
+        <item>square yard</item>
+        <item>square meter</item>
+        <item>running feet</item>
+        <item>running meters</item>
+    </string-array>
+
+    <string-array name="citylocation">
+
+        <item>Location</item>
+        <item>Jaipur</item>
+        <item>Kota</item>
+        <item>Delhi</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hint"><font size="14">Project Description!</font></string>
+
+    <string name="othercity"><font size="14">Other City</font></string>
+    <string name="name"><font size="14">Name</font></string>
+    <string name="phone"><font size="14">Phone</font></string>
+    <string name="email"><font size="14">Email</font></string>
+    <string name="password"><font size="14">Password</font></string>
+    <string name="title"><font size="14">Title</font></string>
+    <string name="size"><font size="14">Enter Size</font></string>
+    <string name="min_budget"><font size="14">Min Budget</font></string>
+    <string name="max_budget"><font size="14">Max Budget</font></string>
+
+    <string name="resToastText">Crash</string>
+</resources>
